@@ -12,7 +12,7 @@ jobs:
       language: java
       jdk: oraclejdk8
       addons:
-        mariadb: '10.2'
+        mariadb: '10.1'
       install: skip
       before_script:
         - mysql -uroot < databases/tracker/create_databases.sql
